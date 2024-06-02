@@ -1,10 +1,10 @@
 import "./App.css";
-import { UncontrolledForm } from "./components/UncontrolledForm";
+import { TodoList } from "./components/ToDoList";
 
 const App = () => {
   return (
     <div>
-      <UncontrolledForm />
+      <TodoList />
     </div>
   );
 };
